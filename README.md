@@ -1,4 +1,8 @@
 # Marketplace NFT
+Team:
+Jonathan Gamboa
+Liseth González - https://github.com/Mgonzalez06/marketplace_nft
+Lindsay Badilla - https://github.com/LinSys16/ETH_NFT
 
 This NFT marketplace project consists of two main contracts: MyNFT.sol for minting ERC721 tokens and MarketplaceNFT.sol for listing, buying, and canceling NFTs. The design incorporates several key patterns in Solidity:
 
