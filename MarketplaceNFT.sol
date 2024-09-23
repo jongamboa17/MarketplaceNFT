@@ -32,7 +32,7 @@ contract MarketplaceNFT is Ownable, Pausable, ReentrancyGuard {
     event ListingPriceUpdated(address indexed seller, address indexed nftContract, uint256 indexed tokenId, uint256 newPrice);
     
     // Constructor: initializes the contract in a non-paused state, Ownable sets the deployer as Owner 
-    constructor(){}
+    constructor() Ownable(msg.sender) {}
 
     // Only the owner of the contract can pause the marketplace
     function pause() public onlyOwner {
